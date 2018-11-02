@@ -1,0 +1,118 @@
+body {
+    background: url("../images/congruent_pentagon.png");
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.headerContainer {
+    padding: 45px;
+
+    text-align: center;
+
+    font-family: 'Aclonica', sans-serif;
+
+    font-size: 30px; 
+}
+
+header {
+    text-align: center;
+    
+    font-size: 45px;
+    
+    color: rgb(240, 8, 143);
+    
+    font-family: 'Aclonica', sans-serif;
+}
+
+.rulesContainer {
+    text-align: center;
+    
+    font-size: 15px;
+    
+    color: rgb(240, 8, 143);
+    
+    font-family: 'Aclonica', sans-serif;
+    
+    float: right;
+
+    border: 3px black solid;
+
+    width: 600px;
+
+    padding-right: 40px;
+
+    padding-left: 40px;
+
+    margin-right: 50px;
+}
+
+h1, h2, h3, h5 {
+    text-align: center;
+    
+    font-size: 15px;
+    
+    color: rgb(240, 8, 143);
+    
+    font-family: 'Aclonica', sans-serif; 
+}
+
+span {
+    text-align: center
+}
+.scoresContainer {
+    text-align: center;
+    
+    font-size: 15px;
+    
+    color: rgb(240, 8, 143);
+    
+    font-family: 'Aclonica', sans-serif;
+
+    
+    width: 20%;
+
+    margin-left: 200px;
+}
+
+#crystalsContainer {
+    margin-right: 10px;
+
+    margin-left: 50px;
+
+    padding-right: 10px;
+
+    padding-left: 50px;
+
+    float: right;
+
+    margin-bottom: 1000px;
+}
+
+.crystal {
+    border: 3px black solid;
+
+    width: 90%;
+
+    margin-left: 10px;
+    
+    margin-right; 10px;
+
+    padding-left: 10px;
+
+    padding-right: 10px;
+    
+
+   
+}
+
+#targetNum, #yourScore, #wins, #losses, #userScore, #scoresContainer {
+    color: black;
+    text-align: center;
+    float: left;
+
+
+}

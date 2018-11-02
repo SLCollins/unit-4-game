@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS Stylesheet Link -->
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">  
+        
+        <!-- Reset Style Link -->
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+
+        <!--Google Font Link-->
+        <style>
+                @import url('https://fonts.googleapis.com/css?family=Aclonica');
+        </style>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+        
+   
+        <!-- JQuery Library Link -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+        <!-- Bootstrap Link -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        
+</head>
+
+<body>
+<div class="headerContainer">
+<header>Crystal Collector</header>
+</div>
+
+<div class="rulesContainer">
+    <h1>Rules</h1>
+
+    <p>You will be given a random number at the start of the game.</p>
+    <p>There are four crystals on this page. By clicking on a crystals, you will add a specific amount of points to your total score.</p>
+    <p>You win the game by matching your total score to the random number below. You lose the game if your total score goes above the random number.</p>
+    <p>The value of each crystal is hidden from you until you click on it.</p>
+    <p>The value of each crystal cahnges each time the game starts.</p>
+</div>
+
+<br>
+
+<h3 id="targetNum"></h3>
+
+<div class="scoresContainer">
+    <h2 id="lossMsg">You lost this round.</h2>
+    <h2 id="winMsg">You won this round!</h2>
+    <br>
+    <h5>Wins: <span id="wins"></span></h5>
+    <br>
+    <h5>Losses: <span id="losses"></span></h5>
+</div>
+
+<div id="yourScore">Your score: </div>
+<br>
+
+<h3 id="userScore"> </h3>
+
+<div id="crystalsContainer">
+        <div class="crystal" id="orangeCrystal">
+            <img src="assets/images/orange.png">
+        </div>
+        <div class="crystal" id="blueCrystal">
+            <img src="assets/images/blue.png">
+        </div>
+        <div class="crystal" id="yellowCrystal">
+            <img src="assets/images/yellow.png">
+        </div>
+        <div class="crystal" id="greenCrystal">
+            <img src="assets/images/green.png">
+        </div>
+    </div>
+
+<br>
+
+
+</body>
+<footer>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <span>Stephanie Collins | <a href = "#" target="_blank"> Github Page</a> </span>
+
+
+</footer>
+
+</html>
